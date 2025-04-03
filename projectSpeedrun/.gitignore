@@ -1,0 +1,38 @@
+# Thư mục Library chứa dữ liệu build tạm (không cần push)
+Library/
+# Thư mục Temp chứa file tạm khi chạy Unity
+Temp/
+# Thư mục Logs chứa log debug
+Logs/
+# Thư mục ObjectStore có thể bị tạo ra khi dùng Plastic SCM
+ObjectStore/
+# Thư mục cache của UserSettings
+UserSettings/
+# Các file lock tạm của Unity
+*.lock
+# Thư mục Builds nếu không muốn lưu bản build trong repo
+Builds/
+# Các file ánh xạ máy tính cá nhân (không cần thiết)
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.swp
+*.tmp
+*.bak
+*.ncb
+*.svd
+*.pdb
+*.db
+# Visual Studio / Rider cache
+.vscode/
+.idea/
+*.iml
+# Các file log của Unity
+*.log
+# Các file tạm của hệ điều hành
+.DS_Store
+Thumbs.db
